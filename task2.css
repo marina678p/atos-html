@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 .blue{
     color: blue;
 }
@@ -21,6 +25,28 @@ a[href]{
 a[href^="https"]{
     background-color: lightblue;
 }
-a[href$]{
-    
+a[href$=".com/"]{
+    font-weight: 700;
+}
+a:visited{
+    background-color: coral;
+}
+a[href="https://yandex.ru/"]{
+    text-decoration: midnightblue;
+}
+div:empty{
+    width: 120px;
+    height: 120px;
+}
+a[href*="apps"]{
+    background-color: darkgreen;
+}
+a:active{
+    border: 2px dotted firebrick;
+}
+a[class="link"] {
+    background-color: gold;
+}
+a:link{
+border: 2px dotted sandybrown;
 }
