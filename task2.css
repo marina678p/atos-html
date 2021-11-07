@@ -48,5 +48,29 @@ a[class="link"] {
     background-color: gold;
 }
 a:link{
-border: 2px dotted sandybrown;
+    border: 2px dotted sandybrown;
+}
+.form {
+    margin-top: 50px;
+}
+.pancake ol li:first-child {
+    font-weight: bold;
+}
+.pancake ol li:last-child {
+    text-decoration: underline;
+}
+input:optional {
+border: 1px solid steelblue;
+}
+input:required {
+    border: 1px solid gold;
+}
+input:valid {
+    border: 1px solid green;
+}
+input:invalid {
+    border: 1px solid red;
+}
+#remember:checked {
+    opacity: 0.3;
 }
