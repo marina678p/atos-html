@@ -1,3 +1,26 @@
-.pink{
-    color: pink;
+.blue{
+    color: blue;
+}
+p, li{
+    color: green;
+}
+.pancake p{
+    font-weight: 700 ;
+}
+.pancake:hover {
+    color: black;
+    background-color: rgb(248, 135, 192);
+}
+    h1{
+    text-align: center;
+}
+a[href]{
+    background-color: indianred;
+
+}
+a[href^="https"]{
+    background-color: lightblue;
+}
+a[href$]{
+    
 }
